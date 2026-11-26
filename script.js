@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const UNIT_PRICE = 8000; // Rp 8.000 per gelas
-    const PHONE_NUMBER = '6287824055649'; // +62 878-2405-5649
+    const PHONE_NUMBER = '6289605673133'; // +62 896-0567-3133
     const STORE_ADDRESS = 'Jl. Pahlawan, Gasol, Kec. Cugenang, Kabupaten Cianjur, Jawa Barat 43252, Indonesia';
 
     let quantity = 1;
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const message = `Halo WARUNG MELITA, saya ingin pesan *Air Kelapa Murni* sebanyak *${quantity} gelas* (Subtotal: ${total}). Mohon info ongkos kirimnya ya.`;
             const waUrl = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
 
-            alert(`Terima kasih! Pesanan Anda (${quantity} gelas - ${total}) akan diarahkan ke WhatsApp/telepon WARUNG MELITA.`);
+            alert(`Terima kasih! Pesanan Anda (${quantity} gelas - ${total}) akan diarahkan ke WhatsApp/telepon WARUNG AMIH.`);
             window.open(waUrl, '_blank', 'noopener,noreferrer');
         });
 
