@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const UNIT_PRICE = 8000; // Rp 8.000 per gelas
+    const UNIT_PRICE = 8000; // Rp 8.000 per gelas/kantong
     const PHONE_NUMBER = '6289605673133'; // +62 896-0567-3133
     const STORE_ADDRESS = 'Jl. Pahlawan, Gasol, Kec. Cugenang, Kabupaten Cianjur, Jawa Barat 43252, Indonesia';
 
