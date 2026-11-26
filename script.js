@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         orderBtn.addEventListener('click', (event) => {
             event.preventDefault();
             const total = formatRupiah(quantity * UNIT_PRICE);
-            const message = `Halo WARUNG MELITA, saya ingin pesan *Air Kelapa Murni* sebanyak *${quantity} gelas* (Subtotal: ${total}). Mohon info ongkos kirimnya ya.`;
+            const message = `Halo WARUNG AMIH, saya ingin pesan *Air Kelapa Murni* sebanyak *${quantity} gelas* (Subtotal: ${total}). Mohon info ongkos kirimnya ya.`;
             const waUrl = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
 
             alert(`Terima kasih! Pesanan Anda (${quantity} gelas - ${total}) akan diarahkan ke WhatsApp/telepon WARUNG AMIH.`);
